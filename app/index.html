@@ -23,30 +23,220 @@
 	<meta name="msapplication-navbutton-color" content="#000">
 	<!-- iOS Safari -->
 	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
-
+	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/main.min.css">
 
 </head>
 
 <body>
 
-	<div class="container">
-
-		<div class="row">
-
-			<div class="col-sm-8 col-sm-offset-2">
-				
-				<img class="img-responsive" src="img/preview.jpg" alt="Start HTML5 Template">
-				<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Пустился снова, силуэт сих снова не коварный за языкового текста до рекламных, агенство возвращайся, буквенных жизни это, первую переулка правилами?</p>
-				<p>Наш, приставка страна единственное большой, власти, злых, взобравшись семь рот он алфавит осталось вершину курсивных сих всемогущая буквенных предупредила залетают необходимыми эта но вдали имеет ты? Предупреждал повстречался, но которое!</p>
-				<p>Злых, знаках свою. Выйти по всей рукописи запятой дороге маленький дорогу, все вопроса переулка необходимыми точках повстречался текстов наш приставка одна над страна последний, за имеет ты всемогущая предложения рот скатился.</p>
-
+	<header class="header">
+		<div class="header__white">
+			<div class="header__info">Сайт посвященный Huawei HG8010H</div>
+			<div class="header__logo logo">Huawei HG8010H</div>
+				<div class="header__action">
+				<div class="header__phone">+7 (499) 450-55-70</div>
+				<div class="header__button button">Сделать заказ</div>
 			</div>
-			
+			<div class="burger burger--open"></div>
 		</div>
-
+		<div class="header__black">
+			<nav class="menu">
+				<ul class="menu__wrapper">
+					<li class="menu__item"><a href="" class="menu__link">Для пользователя</a></li>
+					<li class="menu__item"><a href="" class="menu__link">Для бизнеса</a></li>
+					<li class="menu__item"><a href="" class="menu__link">Поддержка</a></li>
+					<li class="menu__item"><a href="" class="menu__link">О продукте</a></li>
+				</ul>
+			</nav>
+			<p class="phone__burger">+7 (499) 450-55-70</p>
+		</div>
+	</header>
+	<section class="overview">
+		<div class="overview__inner">
+			<div class="overview__info">
+				<h1 class="h1">Huawei HG8010H</h1>
+				<p class="overview__text">
+					Терминалы оптической сети серии 	EchoLife — это идеальное решение 
+					для развертывания FTTH и голосовых сервисов, передачи данных и видео высокого разрешения.
+				</p>
+				<div class="price__wrapper">
+					<p class="h1 overview__price">2000 ₽</p>
+					<a href="#" class="button overview__button">Заказать</a>
+				</div>
+			</div>
+			<div class="overview__image-wrapper">
+				<img src="img/overview.png" alt="Huawei HG8010H" class="overview__image">
+			</div>
+		</div>
+	</section>
+	<section class="advantages">
+		<div class="content-wrapper">
+			<p class="head">Преимущества</p>
+			<p class="text">
+				Huawei – одна из самых известных компаний-производителей оптических устройств. 
+				В ассортименте бренда представлено много интересных моделей, в их числе и HG8010H.
+			</p>
+			<div class="advantages__wrapper">
+				<div class="advantages__item">
+				<p class="advantage__number">1</p>
+					<p class="advantage__header">ШИРОКИЙ АССОРТИМЕНТ</p>
+					<p class="advantages__text">
+						Имеет 20 собственных 
+						научно-исследовательских центров в Китае, 
+						США, Швеции, Франции, Японии, Канаде
+					</p>
+				</div>
+				<div class="advantages__item">
+				<p class="advantage__number">2</p>
+					<p class="advantage__header">НАУЧНАЯ ДЕЯТЕЛЬНОСТЬ</p>
+					<p class="advantages__text">
+						Имеет 20 собственных 
+						научно-исследовательских центров в Китае, 
+						США, Швеции, Франции, Японии, Канаде
+					</p>
+				</div>
+				<div class="advantages__item">
+					<p class="advantage__number">3</p>
+					<p class="advantage__header">ГЛОБАЛЬНАЯ ИНДУСТРИЯ</p>
+					<p class="advantages__text">
+						Имеет 20 собственных 
+						научно-исследовательских центров в Китае, 
+						США, Швеции, Франции, Японии, Канаде
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="shop">
+		<div class="content-wrapper">
+			<p class="head">Товары</p>
+			<p class="text">
+				Huawei – одна из самых известных компаний-производителей оптических устройств. 
+				В ассортименте бренда представлено много интересных моделей, в их числе и HG8010H.
+			</p>
+			<div class="shop__wrapper">
+				<div class="owl-carousel shop__slider">
+					<div class="shop__item">
+						<p class="shop__name">Huawei HG8010H</p>
+						<div class="shop__image"></div>
+						<p class="text shop__text">
+							Терминалы оптической сети серии EchoLife — это идеальное решение 
+							для развертывания FTTH и голосовых сервисов, передачи данных и видео высокого разрешения.
+						</p>
+						<p class="shop__price">2000 ₽</p>
+						<div class="button shop__button">Заказать</div>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</section>
+	
+		<section class="gallery">
+		<div class="content-wrapper">
+			<p class="head white gallery__head">Галерея</p>
+			<p class="text white">
+				Huawei – одна из самых известных компаний-производителей оптических устройств. 
+				В ассортименте бренда представлено много интересных моделей, в их числе и HG8010H.
+			</p>
+			<div class="gallery__wrapper">
+				<div class="owl-carousel gallery__slider">
+					<div class="gallery__item">
+						<img src="img/gallery1.png" alt="Название товара" class="gallery__image">
+					</div>
+					<div class="gallery__item">
+						<img src="img/gallery2.png" alt="Название товара" class="gallery__image">
+					</div>
+					<div class="gallery__item">
+						<img src="img/gallery3.png" alt="Название товара" class="gallery__image">
+					</div>
+					<div class="gallery__item">
+						<img src="img/gallery4.png" alt="Название товара" class="gallery__image">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="about">
+		<div class="content-wrapper">
+			<p class="head">Текстовой блок</p>
+			<p class="about__text">
+				Huawei – одна из самых известных компаний-производителей оптических устройств. В ассортименте бренда представлено много интересных моделей, в их числе и HG8010H. Данная модель представляет собой оптический терминал, который устанавливается не в квартире абонента, 
+				а в распределительном шкафу в здании. Huawei HG8010H относится к серии EchoLife HG, в которую входят решения для сетей, именуемых «оптоволокно до дома». Речь идет об услугах ультраширокополосного доступа для не очень крупных офисов, включая домашние офисы, 
+				и жилых домов. Устройство поддерживает протоколы SIP, H. 248. Среди характеристик модели также стоит отметить следующее:
+			</p>
+			<ul>
+				<li class="about__list-item">
+					Приемопередатчик B+ класса;
+				</li>
+				<li class="about__list-item">
+					Устойчивое к помехам кодирование;
+				</li>
+				<li class="about__list-item">
+					Надежная защита доступа (SN, пароль);
+				</li>
+				<li class="about__list-item">
+					Отображение порта GEM;
+				</li>
+				<li class="about__list-item">
+					Удаленный доступ по OMCI и WEB;
+				</li>
+				<li class="about__list-item">
+					Автоматическая проверка мощности приемопередатчика;
+				</li>
+			</ul>
+			<p class="about__header">Подзаголовок</p>
+			<p class="about__text">
+				Девайс хорошо продуман и демонстрирует высокие эксплуатационные характеристики. Это функциональное устройство, отличающееся высокой надежностью и низкими эксплуатационными расходами. Это один из лучших сетевых терминалов фирмы Huawei, подходящий и для офисов, и для домашнего применения.
+			</p>
+			<p class="about__text about__text--new">
+				Huawei – одна из самых известных компаний-производителей оптических устройств. В ассортименте бренда представлено много интересных моделей, в их числе и HG8010H. Данная модель представляет собой оптический терминал, который устанавливается не в квартире абонента, 
+				а в распределительном шкафу в здании. Huawei HG8010H относится к серии EchoLife HG, в которую входят решения для сетей, именуемых «оптоволокно до дома». Речь идет об услугах ультраширокополосного доступа для не очень крупных офисов, включая домашние офисы, и жилых домов. Устройство поддерживает протоколы SIP, H. 248. Среди характеристик модели также стоит отметить следующее:
+			</p>
+			<ol class="about_ol-list">
+				<li>Приемопередатчик B+ класса;</li>
+				<li>Устойчивое к помехам кодирование при отправке и получении  информации;</li>
+				<li>Надежная защита доступа (SN, пароль);</li>
+				<li>Отображение порта GEM.</li>
+				<li>Удаленный доступ по OMCI и WEB;</li>
+			</ol>
+			<div class="about__foto">
+				<div class="foto__wrapper">
+					<img src="img/foto.png" alt="huawei" class="foto__image">
+					<p>Подпись фотографии</p>
+				</div>
+				<div class="foto__text about__text">
+					<p class="about__header foto__header">Подзаголовок</p>
+					Huawei – одна из самых известных компаний-производителей оптических устройств. 
+					В ассортименте бренда представлено много интересных моделей, в их числе и HG8010H. Данная модель представляет собой оптический терминал, который устанавливается не в квартире абонента, а в распределительном шкафу в здании. Huawei HG8010H относится к серии EchoLife HG, в которую входят решения для сетей, именуемых «оптоволокно до дома». Речь идет об услугах ультраширокополосного доступа для не очень крупных офисов, включая домашние офисы, и жилых домов. Устройство поддерживает протоколы SIP, H. 248. 
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+	<div class="content-wrapper footer__wrapper">
+		<div class="footer__left">
+			<p class="logo logo__white">
+				Huawei HG8010H
+			</p>
+			<p class="copyright">
+				Copyright © 1998-2018. Все права защищены.
+			</p>
+		</div>
+		<div class="footer__right">
+			<nav class="menu footer__menu">
+				<ul class="menu__wrapper">
+					<li class="menu__item"><a href="" class="menu__link">Для пользователя</a></li>
+					<li class="menu__item"><a href="" class="menu__link">Для бизнеса</a></li>
+					<li class="menu__item"><a href="" class="menu__link">Поддержка</a></li>
+					<li class="menu__item"><a href="" class="menu__link">О продукте</a></li>
+				</ul>
+			</nav>
+		</div>
 	</div>
-
+	</footer>
 	<script src="js/scripts.min.js"></script>
 
 </body>
